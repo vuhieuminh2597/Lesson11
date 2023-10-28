@@ -92,7 +92,7 @@ public class Main {
         File file = new File(url);
         if (!file.exists()) {
             System.out.println("File not found!");
-            return null;
+            return students;
         }
         try {
             FileInputStream fis = new FileInputStream(file);
